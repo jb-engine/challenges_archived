@@ -16,8 +16,8 @@ Pick the one that most suites the position you wish to apply.
 
 **JB Hired**
 
-* Backend / Python Django - [python-django](https://gitlab.com/jbengine/challenges/python-django)
-* Frontend / React - [react](https://gitlab.com/jbengine/challenges/react)
+* Backend / Python Django - [python-django](https://gitlab.com/jbengine/challenges/tree/master/python-django)
+* Frontend / React - [react](https://gitlab.com/jbengine/challenges/tree/master/react)
 
 ### Free Style Challenge
 
