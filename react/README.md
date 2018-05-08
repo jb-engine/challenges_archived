@@ -15,9 +15,10 @@ The first step focuses only on the frontend side.
 
 This second step focuses on the communication with API.
 
-- Imagine that each person object has a field "status" which can be "interview", "technical_test", or "hired", and that the API provides CRUD operations for person object
-- Explain how you would connect the frontend to the API to fetch the data and modify the data when persons are dragged and dropped in another stage
+- Imagine that in the backend database, each person object has a field "status" which can be "interview", "technical_test", or "hired"
+- And imagine that the there is a REST API providing CRUD operations for person object
+- Explain how you would connect the frontend to the API to fetch the data and modify the data presented in your Kanban board
 
 # Guidelines
 
-- Send us the project and your comments as a git repository, or a hosted demo, or a zip file
+- Send us the project and your comments as a git patch or repository, or a hosted live demo
