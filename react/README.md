@@ -1,6 +1,6 @@
 Create a front-end application allowing a user to interact with a Kanban board.
 
-Keep track of the time you spend on each part of this project and send it with your submission to jobs@jbhired.com.
+Keep track of the time you spend on each part of this project and send it with your submission to [yassine@jbhired.com](mailto:yassine@jbhired.com).
 
 # Step 1
 

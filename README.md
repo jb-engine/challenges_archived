@@ -8,7 +8,7 @@ projects that are very relevant to the tasks you will be working on at JB Hired.
 * We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time,
   if you need it. A rushed job is usually matched by a swift rejection.
 * Submission is done via a [git format-patch](https://git-scm.com/docs/git-format-patch). Attach
-  your patches in an e-mail and send it to [jobs@jbhired.com](mailto:jobs@jbhired.com).
+  your patches in an e-mail and send it to [yassine@jbhired.com](mailto:yassine@jbhired.com).
 
 ### Challenges
 
