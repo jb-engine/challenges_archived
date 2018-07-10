@@ -4,23 +4,22 @@ Keep track of the time you spend on each part of this project and send it with y
 
 # Step 1
 
-The first step focuses only on the frontend side. 
+The first step focuses only on the frontend side.
 
-- Create a vuejs app & use vuetify component framework to create the UI (https://vuetifyjs.com/en/)
-- Get inspired with this example](http://prntscr.com/k498k8)
-- Create the ui using vuejs.
+- Create a Vue.js app & use Vuetify component framework to create the UI (https://vuetifyjs.com/en/)
+- Get inspired with this example: http://prntscr.com/k498k8
+- Create the UI using Vue.js
 - (Bonus) Show off your CSS skills by making it look good & responsive
 
 # Step 2
 
 This second step focuses on the communication with API.
 
-- Make api call to this url (https://newsapi.org/v2/top-headlines?country=us&apiKey=API_KEY) to get the latest headlines from different sources
+- Make an API call to this URL https://newsapi.org/v2/top-headlines?country=us&apiKey=API_KEY to get the latest headlines from different sources
 - Show the latest headlines in the UI
-- Make another api call to this url (https://newsapi.org/v2/sources?apiKey=API_KEY
-) to get the list of sources & show the sources as a dropdown to filter button in the top right corner
-- When a user filter a source then show the headlines from that perticular source by filtering the data.
-- Use vuex for the state management
+- Make another API call to this URL https://newsapi.org/v2/sources?apiKey=API_KEY to get the list of sources & show the sources as a dropdown button in the top right corner to filter news sources
+- When a user filters a source then show the headlines from that particular source by filtering the data.
+- Use Vuex for the state management
 
 Use `099148be22804e849a0c6fe022b7cf5e` as API_KEY 
 

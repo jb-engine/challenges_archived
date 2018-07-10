@@ -19,7 +19,7 @@ Pick the one that most suites the position you wish to apply.
 **JB Hired**
 
 * Backend / Python Django - [python-django](https://gitlab.com/jbengine/challenges/tree/master/python-django)
-* Frontend / VueJs - [vuejs](https://github.com/jb-engine/challenges/tree/master/vuejs)
+* Frontend / Vue.js - [vuejs](https://github.com/jb-engine/challenges/tree/master/vuejs)
 
 
 ## Free Style Challenge
