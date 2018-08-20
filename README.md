@@ -1,7 +1,7 @@
-# JB Hired Code Challenges
+# Manatal Code Challenges
 
-This repository houses JB Hired's interviewing code challenges. These are small hands-on
-projects that are very relevant to the tasks you will be working on at JB Hired.
+This repository houses Manatal's interviewing code challenges. These are small hands-on
+projects that are very relevant to the tasks you will be working on at Manatal.
 
 
 ## Ground Rules
@@ -18,11 +18,11 @@ Pick the one that most suites the position you wish to apply.
 
 **Backend**
 
-* Python/Django - [Open Python/Django challenge](https://github.com/jb-engine/challenges/tree/master/python_django)
+* [Python/Django challenge](https://github.com/jb-engine/challenges/tree/master/python_django)
 
 **Frontend**
 
-* Vue.js - [Open Vue.js challenge](https://github.com/jb-engine/challenges/tree/master/vue_js)
+* [Vue.js challenge](https://github.com/jb-engine/challenges/tree/master/vue_js)
 
 
 ## Free Style Challenge
