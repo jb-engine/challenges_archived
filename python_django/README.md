@@ -1,6 +1,6 @@
 Create a backend application allowing management of schools and students
 
-Keep track of the time you spend on each part of this project and send it with your submission to [alexandre@jb-engine.com](mailto:alexandre@jb-engine.com).
+Keep track of the time you spend on each part of this project and send it with your submission to [alexandre.paroissien@manatal.com](mailto:alexandre.paroissien@manatal.com).
 
 
 # Step 1

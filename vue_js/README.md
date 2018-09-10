@@ -1,6 +1,6 @@
 Create a front-end application allowing a user to see the news from various websites using https://newsapi.org.
 
-Keep track of the time you spend on each part of this project and send it with your submission to [yassine@jb-engine.com](mailto:yassine@jb-engine.com).
+Keep track of the time you spend on each part of this project and send it with your submission to [yassine.belmamoun@manatal.com](mailto:yassine.belmamoun@manatal.com).
 
 # Step 1
 
