@@ -14,15 +14,19 @@ projects that are very relevant to the tasks you will be working on at Manatal.
 
 ## Challenges
 
-Pick the one that most suites the position you wish to apply.
+Pick the one that most suites the position you wish to apply. Python and Django for backend, and Vue for frontend.
 
-**Backend**
+**Python**
 
-* [Python/Django challenge](python_django/)
+* [Python challenge](python/)
 
-**Frontend**
+**Django**
 
-* [Vue.js challenge](vue_js/)
+* [Django challenge](django/)
+
+**Vue.js**
+
+* [Vue.js challenge](vue/)
 
 
 ## Free Style Challenge
