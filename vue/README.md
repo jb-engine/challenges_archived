@@ -12,7 +12,7 @@ Keep track of the time you spend on each part of this project and send it as a g
 The first step focuses only on the frontend side.
 
 - Create a Vue.js app & use Vuetify component framework to create the UI
-- Get inspired with this example: http://prntscr.com/k498k8
+- You can get inspired with the image below
 - Create in a first page the UI displaying the different headlines
 - Create another page using Vue Router displaying more information about a selected headline
 - Create a toolbar in a child **functional** component linked to each headline. 
@@ -39,3 +39,6 @@ Use `099148be22804e849a0c6fe022b7cf5e` as API_KEY
 # Bonus
 
 - Implement unit tests using **mocha-webpack**
+
+# Example
+![Challenge Example](challenge-example.png)
