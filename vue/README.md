@@ -29,7 +29,7 @@ This second step focuses on communication with API.
 - Show the headlines in the UI
 - Make another API call to this URL https://newsapi.org/v2/sources?apiKey=API_KEY to get the list of sources
 - Allow the user to select a source to display the filtered headlines
-- Add a search bar to be able to fetch and display only headlines with the included text. You will ll call this URL https://newsapi.org/v2/top-headlines?q=SEARCH_TEXT&apiKey=API_KEY
+- Add a search bar to be able to fetch and display only headlines with the included text. You will ll call this URL https://newsapi.org/v2/top-headlines?q=SEARCH_TEXT&apiKey=API_KEY , Please note the api should be called as and when the user types or press the key.
 - Add a spinner when the headlines are fetching
 - Make a wrong API call to this URL https://newsapi.org/v2/sources?apiKey and display an error message
 - Use Vuex for the state management
