@@ -24,7 +24,7 @@ This second step focuses on Django Rest Framework (DRF).
 
 - Feel free to use the DRF browsable API for testing things manually.
 
-- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods:
+- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the different API HTTP methods:
 https://www.django-rest-framework.org/api-guide/viewsets/#modelviewset
 https://www.django-rest-framework.org/api-guide/serializers/#modelserializer
 And make sure to test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
@@ -41,7 +41,8 @@ This third step focuses on Django Nested Routers.
 
 - Add Django Nested Routers library to your project by using Pipenv
 
-- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods, and test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
+- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the 
+different API HTTP methods, and test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
   - endpoint /schools/:id/students will return students who belong to school :id (GET)
   - endpoint /schools/:id/students will allow student creation in the school :id (POST)
   - your nested endpoint will allow GET/PUT/PATCH/DELETE methods on /schools/:id/students/:id
