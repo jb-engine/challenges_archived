@@ -24,8 +24,10 @@ This second step focuses on Django Rest Framework (DRF).
 
 - Feel free to use the DRF browsable API for testing things manually.
 
-- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods, and test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
-
+- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods:
+https://www.django-rest-framework.org/api-guide/viewsets/#modelviewset
+https://www.django-rest-framework.org/api-guide/serializers/#modelserializer
+And make sure to test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
   - endpoint /students/ will return all students (GET) and allow student creation (POST)
   - endpoint /schools/ will return all schools (GET) and allow school creation (POST)
   - endpoint /schools/:id and /students/:id will return the object by :id (GET) and allow editing (PUT/PATCH) or deleting (DELETE)
