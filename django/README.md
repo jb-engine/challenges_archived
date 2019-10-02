@@ -1,6 +1,6 @@
 Create a backend application allowing management of schools and students
 
-Keep track of the time you spend on each part of this project and send it with your submission to [alexandre.paroissien@manatal.com](mailto:alexandre.paroissien@manatal.com).
+Keep track of the time you spend on each part of this project and send it with your submission to [yassine.belmamoun@manatal.com](mailto:yassine.belmamoun@manatal.com).
 
 
 # Step 1
@@ -24,7 +24,7 @@ This second step focuses on Django Rest Framework (DRF).
 
 - Feel free to use the DRF browsable API for testing things manually.
 
-- Create urls, views, serializers for all your models so that:
+- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods, and test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
 
   - endpoint /students/ will return all students (GET) and allow student creation (POST)
   - endpoint /schools/ will return all schools (GET) and allow school creation (POST)
@@ -39,7 +39,7 @@ This third step focuses on Django Nested Routers.
 
 - Add Django Nested Routers library to your project by using Pipenv
 
-- Configure your urls, views, and serializers so that:
+- Design your API according to specifications below. You can use ModelViewSet and ModelSerializer to automatically handle the diffent API HTTP methods, and test and customize if any customization is needed. Knowing that, create urls, views, serializers for all your models so that:
   - endpoint /schools/:id/students will return students who belong to school :id (GET)
   - endpoint /schools/:id/students will allow student creation in the school :id (POST)
   - your nested endpoint will allow GET/PUT/PATCH/DELETE methods on /schools/:id/students/:id
