@@ -7,7 +7,7 @@ Keep track of the time you spend on each part of this project and send it with y
 
 The first step focuses on Django setup and models.
 
-- Create a Django app, with Postgres as a database, and Pipenv as a Python dependency manager
+- Create a Django app, with Postgres as a database, and Pipenv as a Python dependency manager. (We recommend using a Ubuntu system)
 
 - Add models to create the following structure:
 
