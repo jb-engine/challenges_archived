@@ -5,7 +5,7 @@ In this test, you will create a front-end application with Vue.js allowing a use
 Your application has to use **Vue Router**, **Vuetify**, and **Vuex**. Your code needs to follow the **Airbnb javascript style guide**.  
 Try to write a clean and understandable code that also focuses on optimization. A clean commit history and a README is recommended.
 
-Keep track of the time you spend on each part of this project and send it as a git patch or repository to [yassine.belmamoun@manatal.com](mailto:yassine.belmamoun@manatal.com).
+Keep track of the time you spend on each part of this project and send the link of publicly hosted repository to [yassine.belmamoun@manatal.com](mailto:yassine.belmamoun@manatal.com).
 
 # Step 1
 
