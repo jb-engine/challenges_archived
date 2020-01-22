@@ -1,5 +1,6 @@
-This is a challenge project from Manatal back end team to evaluate how good you are with building APIs with Django.
+# Introduction:
 
+This is a challenge project from Manatal back end team to evaluate how good you are with building APIs with Django.
 
 ## We look for:
 
@@ -7,21 +8,19 @@ This is a challenge project from Manatal back end team to evaluate how good you 
 - Simplicity: You can write gimmick-free and straightforward code with no ambiguities
 - Defensiveness: You can cover edge cases and treat user inputs with care
 
-
 ## Ground Rules
 
 - We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it.
 - We accept only completed test covering all the requirements (and recommendations).
 - Submission is done via email (send the link to your repo).
 
-
-# Guidelines
+## Guidelines
 
 - Send us the project and your comments as a git repository to [yassine.belmamoun@manatal.com](mailto:yassine.belmamoun@manatal.com).
 - Keep track of the time you spend on each part of this project and add a reference to it in your `README.md`.
 
 
-# Test
+# Django Test
 
 You will build a simple API using Django Rest Framework backend application allowing management of schools.
 
@@ -31,14 +30,14 @@ You will build a simple API using Django Rest Framework backend application allo
 The first step focuses on Django setup and models.
 
 1. Create a Django app, with:
-  1. Postgres as a database
-  2. Pipenv as a Python dependency manager.
-  3. Environment file (for sensitive information, etc.)
+  - Postgres as a database
+  - Pipenv as a Python dependency manager.
+  - Environment file (for sensitive information, etc.)
 
 2. Add models to create the following structure:
-  1. Students have a first name, a last name, and a student identification string (20 characters max for each)
-  2. Schools have a name (20 char max) and a maximum number of student (any positive integer)
-  3. Each student object must belong to a school object
+  - Students have a first name, a last name, and a student identification string (20 characters max for each)
+  - Schools have a name (20 char max) and a maximum number of student (any positive integer)
+  - Each student object must belong to a school object
 
 
 ## Step 2
@@ -53,11 +52,11 @@ We encourage you to use `ModelViewSet` and `ModelSerializer` classes to automati
 2. Enable and use the DRF browsable API for testing things manually.
 
 3. Design your API according to specifications below (make sure to test and customize your solution) by creating urls, views, serializers, tests for all your models so that:
-  1. Endpoint `students/` will return all students (GET) and allow student creation (POST)
-  2. Endpoint `/schools/` will return all schools (GET) and allow school creation (POST)
-  3. Endpoint `/schools/:id` and `/students/:id` will return the object by :id (GET) and allow editing (PUT/PATCH) or deleting (DELETE)
-  4. Student creation will generate a unique identification string (like random hexadecimal or uuid4 or anything of your choice)
-  5. Trying to add a student in a full school (maximum number of student reached) will return a DRF error message
+  - Endpoint `students/` will return all students (GET) and allow student creation (POST)
+  - Endpoint `/schools/` will return all schools (GET) and allow school creation (POST)
+  - Endpoint `/schools/:id` and `/students/:id` will return the object by :id (GET) and allow editing (PUT/PATCH) or deleting (DELETE)
+  - Student creation will generate a unique identification string (like random hexadecimal or uuid4 or anything of your choice)
+  - Trying to add a student in a full school (maximum number of student reached) will return a DRF error message
 
 #### References:
 - ModelViewSet: https://www.django-rest-framework.org/api-guide/viewsets/#modelviewset
@@ -71,10 +70,10 @@ This third step focuses on __Django Nested Routers__.
 1. Add Django Nested Routers library to your project by using Pipenv
 
 2. Design your API according to specifications below:
-  1. Endpoint /schools/:id/students will return students who belong to school :id (GET)
-  2. Endpoint /schools/:id/students will allow student creation in the school :id (POST)
-  3. Your nested endpoint will allow GET/PUT/PATCH/DELETE methods on /schools/:id/students/:id
-  4. Your nested endpoint will respect the same two last rules of Step 2 too
+  - Endpoint /schools/:id/students will return students who belong to school :id (GET)
+  - Endpoint /schools/:id/students will allow student creation in the school :id (POST)
+  - Your nested endpoint will allow GET/PUT/PATCH/DELETE methods on /schools/:id/students/:id
+  - Your nested endpoint will respect the same two last rules of Step 2 too
 
 #### References:
 - drf-nested-routers: https://github.com/alanjds/drf-nested-routers
