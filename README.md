@@ -1,8 +1,12 @@
+# challenges Archived
+
+## Archive Notice
+As of January 12, 2024, this project has been marked as outdated and is no longer maintained or updated. The codebase has been archived and is available for historical purposes and for those who might find the previous versions useful.
+
 # Manatal Code Challenges
 
 This repository houses Manatal's interviewing code challenges. These are small hands-on
 projects that are relevant to the tasks you will be working on at Manatal.
-
 
 ## Ground Rules
 
